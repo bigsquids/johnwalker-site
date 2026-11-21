@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>writing &amp; picks — john walker</title>
+  <meta name="description" content="things john walker has written, and things other people made that are worth your time.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/svg+xml" href="/mark.svg">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <div class="row">
+      <a href="/" aria-label="home"><img class="mark" src="/mark.svg" alt=""></a>
+      <nav aria-label="main">
+        <ul>
+          <li><a href="/">about</a></li>
+          <li><a href="/articles.html" aria-current="page">writing</a></li>
+          <li><a href="/#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>my writing</h2>
+    <ul class="entries">
+      <li>
+        <a href="#">on keeping a commonplace book</a>
+        <span class="meta">essay · 6 min · why copying down what you read still beats a bookmark folder</span>
+      </li>
+      <li>
+        <a href="#">small tools, long life</a>
+        <span class="meta">note · 3 min · on software that does one thing and keeps doing it for a decade</span>
+      </li>
+      <li>
+        <a href="#">the case for writing in public</a>
+        <span class="meta">essay · 8 min · publishing badly is still better than not publishing at all</span>
+      </li>
+    </ul>
+    <p class="small muted">to add an article, drop a new html file into the project and link it here</p>
+
+    <h2>curated</h2>
+    <ul class="entries">
+      <li>
+        <a href="#" rel="noopener">a talk worth an hour</a>
+        <span class="meta">video · placeholder — swap in a link to something you'd recommend</span>
+      </li>
+      <li>
+        <a href="#" rel="noopener">the essay i re-read every year</a>
+        <span class="meta">article · placeholder — add the title, author, and url</span>
+      </li>
+      <li>
+        <a href="#" rel="noopener">a podcast episode on craft</a>
+        <span class="meta">audio · placeholder — add a note on why it's worth listening to</span>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> john walker · built with plain html and css · hosted on cloudflare pages</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
