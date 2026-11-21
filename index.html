@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>john walker</title>
+  <meta name="description" content="john walker — a short bio, contact information, and a running list of writing and things worth your time.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/svg+xml" href="/mark.svg">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <div class="row">
+      <a href="/" aria-label="home"><img class="mark" src="/mark.svg" alt=""></a>
+      <nav aria-label="main">
+        <ul>
+          <li><a href="/" aria-current="page">about</a></li>
+          <li><a href="/articles.html">writing</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <ul class="facts">
+      <li>i'm john walker — a writer and builder</li>
+      <li>i collect ideas about technology, craft, and the things worth paying attention to</li>
+      <li>this site is a home base: a short bio, a way to reach me, and a running list of articles and videos i think are worth your time</li>
+      <li>i keep a commonplace book of everything i read
+        <ul>
+          <li>quotes, half-formed thoughts, and links i don't want to lose</li>
+          <li>the good ones end up on the <a href="/articles.html">writing page</a></li>
+        </ul>
+      </li>
+      <li class="muted">this is a starter site — replace these lines with your own</li>
+    </ul>
+
+    <h2>email</h2>
+    <a href="mailto:john.wi.walker@protonmail.com">john.wi.walker@protonmail.com</a>
+
+    <h2 id="contact">socials</h2>
+    <ul>
+      <li><a href="https://github.com/" rel="me noopener">github</a></li>
+      <li><a href="https://www.linkedin.com/" rel="me noopener">linkedin</a></li>
+    </ul>
+
+    <h2>writing &amp; picks</h2>
+    <ul class="entries">
+      <li>
+        <a href="/articles.html">on keeping a commonplace book</a>
+        <span class="meta">essay · 6 min</span>
+      </li>
+      <li>
+        <a href="/articles.html">small tools, long life</a>
+        <span class="meta">note · 3 min</span>
+      </li>
+      <li>
+        <a href="/articles.html">the case for writing in public</a>
+        <span class="meta">essay · 8 min</span>
+      </li>
+    </ul>
+    <p class="small muted"><a href="/articles.html">see everything →</a></p>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> john walker · built with plain html and css · hosted on cloudflare pages</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
